@@ -1,0 +1,110 @@
+﻿/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set widths on the form inputs since otherwise they're 100% wide */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+input[type="select"] {
+    max-width: 280px;
+}
+
+p.description {
+    font-size: 16pt;
+    text-indent: 2em;
+}
+
+li,ol .description {
+    font-size: 16pt;
+}
+
+li.bold {
+    font-weight: bold;
+}
+
+a.nav-item {
+    font-size: 19px !important;
+}
+p.description-hanging {
+    font-size: 16pt;
+    text-indent: 2em hanging;
+}
+img, div.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.width-full {
+    max-width: 100%!important;
+}
+
+.width-100p {
+    width:100%!important;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+span.fr {
+    float: right;
+}
+span.smaller {
+    font-size: 24px;
+}
+.margin-2 {
+    margin-left: 2em;
+}
+.w-130 {
+    width: 130px!important;
+}
+.w-100 {
+    width: 100px!important;
+}
+.w-110 {
+    width: 110px!important;
+}
+
+div.alert-stick-top {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    z-index: 10;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    .jumbotron {
+        margin-top: 20px;
+    }
+    .body-content {
+        padding: 0;
+    }
+    img.center{
+        width: 60%!important;
+    }
+}
