@@ -16,7 +16,7 @@ The page showing the medication information of a specific medicine, based on the
 ![Image](https://i.imgur.com/MoIPO3O.png)
 
 ### NewMedicine.aspx
-The "new medicine" page allowing users to add new medicine to the system. Contains the feature of the auto-assigning of IDs and auto-detecting of missing IDs. Calls the `verifyID()` function in Scripts/custom-scripts.js, which sends a XMLHttpRequest to IDVerification.aspx to return the auto-assigned ID.
+The "new medicine" page allowing users to add new medicine to the system. Contains the feature of the auto-assigning of IDs and auto-detecting of missing IDs. Calls the `verifyID()` function in Scripts/custom-scripts.js, which sends a XMLHttpRequest to IDVerification.aspx and returns the auto-assigned ID.
 ![Image](https://i.imgur.com/bt5IPQb.png)
 Missing IDs are detected and reported to the user by a message box:
 ![Image](https://i.imgur.com/pa2JCGG.png)
