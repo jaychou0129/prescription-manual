@@ -2,6 +2,8 @@
   A web app project to replace the original prescription manual at a local hospital in Taiwan, with enhanced features including searching, filtering and modifying of medication information.
   
   This is the 1.0 version of the system. Minor changes including user authentification and .NET version were made to adapt to the hospital's development system before being officially adopted by the hospital. The modified version of this website is currently in use at the hospital.
+  
+  Click [here](https://youtu.be/5C1ulyojso4) for a video demo.
 
 ## Disclaimer
   The UI of the website is in Chinese due to its intended audience, staff at a local hospital in Taiwan. Please contact the original creator at jay920129@gmail.com for any concerns or issues.
